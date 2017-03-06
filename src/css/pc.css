@@ -1,0 +1,129 @@
+body{
+    font-size: 14px !important;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo img{
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+}
+
+.logo span{
+    font-size: 24px;
+    padding-left: 5px;
+}
+.register{
+    float: right !important;
+}
+.ant-menu-horizontal>.ant-menu-item.register>a{
+    display: inline-block;
+}
+.container{
+    padding-top: 10px;
+}
+.container .news-list{
+    padding: 0 10px;
+}
+.news-title{
+    font-size: 14px;
+    overflow: hidden;
+    padding: 4px 0;
+    line-height: 1.3;
+}
+.news-title a{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ant-carousel img{
+    width: 100%;
+}
+.img-news-list{
+    margin-top: 18px;
+}
+.img-news-list .ant-card-body{
+    padding: 10px 5px;
+}
+.img-news-list-title{
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.new-from{
+    color: #ABABB0;
+}
+.article-container{
+    padding-right: 10px;
+}
+.comment{
+    padding: 10px 0;
+}
+.comment>h3{
+    padding: 20px 0 10px 0;
+}
+.no-comment{
+    font-weight: 700;
+    color: #D6D6D6;
+    font-size: 24px;
+    text-align: center;
+}
+.comment-input{
+    width: 100%;
+    padding-top: 20px;
+}
+.ant-form-inline .comment-input .ant-form-item-control-wrapper{
+    width: 100%;
+}
+.comment-input .ant-input-group-addon{
+    padding: 0;
+    background-color: #108ee9;
+    border: 0;
+}
+.ant-form-inline .comment-input.ant-form-item{
+    margin-right: 0;
+}
+.star-icon{
+    padding: 10px 0;
+    font-size: 20px;
+    color: #108ee9;
+    cursor: pointer;
+}
+.footer{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.productlinks{
+    font-size: 14px;
+}
+.true{
+    display: block;
+}
+.item-mail, .item-sns {
+    background: #fff;
+}
+.productlinks-item {
+    padding: 12px 0;
+    line-height: 25px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.productlinks-item a {
+    padding-right:14px;
+}
